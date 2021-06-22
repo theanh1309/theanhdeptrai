@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: stretch;
+}
+
+section {
+    width: 50%;
+    padding: 10px;
+}
+
+.img-preview {
+    width: 33%;
+}
+
+.content {
+    width: 67%;
+}
